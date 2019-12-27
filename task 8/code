@@ -1,0 +1,19 @@
+from PIL import Image
+import pytesseract #gets text from image
+captcha = Image.open('/users/pchiradeep/Documents/cap.png') #opens the image from given path
+lst = pytesseract.image_to_string(captcha) #installs text from the selected png
+result=0
+a=int(lst[0]) #we convert sting type to int type for mathematical operation
+b=lst[1]
+c=int(lst[2])
+if b=="+":
+	result=a+c
+elif b=="-":
+	result=a-c
+elif b=="*":
+	result=a*c
+elif b=="/":
+	result=a/c
+else:
+	result="can't be done"
+print(result)
