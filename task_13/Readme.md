@@ -1,1 +1,1 @@
-For time being, I solved four questions
+For time being, I solved three questions
