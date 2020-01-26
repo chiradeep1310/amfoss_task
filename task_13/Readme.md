@@ -1,1 +1,1 @@
-For time being, I solved three questions
+This task is similar to task 2 because this is also problem solving
